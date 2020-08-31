@@ -92,6 +92,10 @@ locations:
  <a href="{{ site.training_site }}">curriculum</a>.
 </p>
 
+<p>
+  To register for this event please complete the Google Form found <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDZuhZVlp-cGzCr4TClNaHrp2Te2ix4TRH6Wvxhq0UT4df5Q/viewform?usp=sf_link">HERE</a>.
+</p>
+
 <!--
   LOCATION
 
@@ -111,7 +115,8 @@ locations:
 
 {% if online == "online" %}
 
-This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
+This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is coming and will be made available here shortly.
+#<{{ loc.address }}>.
 
 {% else %}
 {% assign inperson = "true" %}
